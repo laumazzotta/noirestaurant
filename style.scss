@@ -1,0 +1,208 @@
+// TIPOGRAFIAS
+
+$font-family-primary: 'Josefin Sans', sans-serif;
+$font-family-secondary: 'Josefin Slab', serif;
+$font-family-tertiary: 'Nunito', sans-serif;
+
+.text-josefin-sans {
+    font-family: $font-family-primary;
+}
+
+.text-josefin-slab {
+    font-family: $font-family-secondary;
+}
+
+.text-nunito {
+    font-family: $font-family-tertiary;
+}
+
+$primary: rgb(203, 0, 0);
+
+* {
+    background-color: black;
+}
+
+html
+body {
+    height: 100%;
+}
+
+.logo {
+    width: 300px;
+}
+
+.titulo {
+    letter-spacing: 20px;
+    font-size: 7rem;
+}
+
+.button {
+    background-color: $primary;
+    border-color: $primary;
+    color: white;
+    width: 200px;
+    font-size: 3rem;
+    transition: all .5s;
+    display: block;
+    
+}
+
+.button:hover {
+    background-color: rgb(164, 164, 164);
+    border-color: rgb(164, 164, 164);
+    color: $primary;
+}
+
+.card {
+    background-color: black;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+    color: white;
+}
+
+.titulos-menu {
+    letter-spacing: 10px;
+}
+
+.secciones {
+    border: 1px solid white;
+    max-width: 80%;
+}
+
+.titulo-desayuno {
+    background-image: url(images/tostadas.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-panificados {
+    background-image: url(images/desayuno.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-brunch {
+    background-image: url(images/brunch.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-almuerzo {
+    background-image: url(images/pasta.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-aTodaHora {
+    background-image: url(images/sandwich.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-tapeo {
+    background-image: url(images/bruschetas.jpeg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-cena {
+    background-image: url(images/bife.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-postres {
+    background-image: url(images/postre.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-infusiones {
+    background-image: url(images/cafe-maquina.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-bebidasSinAlcohol {
+    background-image: url(images/limonada.jpeg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-cervezas {
+    background-image: url(images/cerveza.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-vinos {
+    background-image: url(images/vino.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-aperitivos {
+    background-image: url(images/aperol.jpg);
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        width: 100px;
+        margin-top: 1rem;
+    }
+
+    .titulo {
+        font-size: 3rem;
+    }
+
+    .titulos-menu {
+        letter-spacing: 8px;
+    }
+
+    .secciones {
+        max-width: 100%;
+    }
+
+}
