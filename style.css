@@ -193,5 +193,109 @@ body {
   .secciones {
     max-width: 100%;
   }
+  .titulo-desayuno {
+    background-image: url(images/tostadas.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-panificados {
+    background-image: url(images/desayuno.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-brunch {
+    background-image: url(images/brunch.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-almuerzo {
+    background-image: url(images/pasta.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-aTodaHora {
+    background-image: url(images/sandwich.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-tapeo {
+    background-image: url(images/bruschetas.jpeg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-cena {
+    background-image: url(images/bife.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-postres {
+    background-image: url(images/postre.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-infusiones {
+    background-image: url(images/cafe-maquina.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-bebidasSinAlcohol {
+    background-image: url(images/limonada.jpeg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-cervezas {
+    background-image: url(images/cerveza.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-vinos {
+    background-image: url(images/vino.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .titulo-aperitivos {
+    background-image: url(images/aperol.jpg);
+    height: 15vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 /*# sourceMappingURL=style.css.map */
