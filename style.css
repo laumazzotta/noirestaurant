@@ -28,6 +28,14 @@ body {
   font-size: 7rem;
 }
 
+a {
+  color: white;
+}
+
+a:hover {
+  color: #cb0000;
+}
+
 .button {
   background-color: #cb0000;
   border-color: #cb0000;
@@ -69,6 +77,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-panificados {
@@ -78,6 +87,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-brunch {
@@ -87,6 +97,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-almuerzo {
@@ -96,6 +107,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-aTodaHora {
@@ -105,6 +117,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-tapeo {
@@ -114,6 +127,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-cena {
@@ -123,6 +137,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-postres {
@@ -132,6 +147,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-infusiones {
@@ -141,6 +157,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-bebidasSinAlcohol {
@@ -159,6 +176,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-vinos {
@@ -168,6 +186,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  line-height: 6rem;
 }
 
 .titulo-aperitivos {
@@ -177,6 +196,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.h2, h2 {
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 992px) {
