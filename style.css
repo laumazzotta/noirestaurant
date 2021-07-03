@@ -97,7 +97,6 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  line-height: 6rem;
 }
 
 .titulo-almuerzo {
@@ -147,7 +146,6 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  line-height: 6rem;
 }
 
 .titulo-infusiones {
@@ -198,8 +196,10 @@ a:hover {
   background-size: cover;
 }
 
-.h2, h2 {
-  font-size: 3rem;
+@media screen and (min-width: 993px) {
+  .h2, h2 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
