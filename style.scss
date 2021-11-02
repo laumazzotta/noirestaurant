@@ -17,15 +17,16 @@ $font-family-tertiary: 'Nunito', sans-serif;
 }
 
 $primary: rgb(203, 0, 0);
+$secondary: black;
 
 * {
-    background-color: black;
+    background-color: black !important;
 }
 
-html
-body {
-    height: 100%;
-}
+// html
+// body {
+//     height: 100%;
+// }
 
 .logo {
     width: 300px;
